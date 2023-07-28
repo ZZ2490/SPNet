@@ -11,7 +11,8 @@ Overall architecture of the Saliency Prototype Network
 #### CUDA 11
 #### The provided environment is suggested for reproducing our results, similar configurations may also work.
 ### Quick Start
-``` conda create -n Spnet python=3.9.1
+```
+    conda create -n Spnet python=3.9.1
     conda activate Spnet
     git clone git@github.com:ZZ2490/SPNet.git
     python train_rgbd.py
