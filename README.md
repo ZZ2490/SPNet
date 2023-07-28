@@ -13,7 +13,8 @@ Overall architecture of the Saliency Prototype Network
 ### Quick Start
 ``` conda create -n Spnet python=3.9.1
     conda activate Spnet
-    git clone
+    git clone git@github.com:ZZ2490/SPNet.git
+    python train.py
 ```
 ## RGBD Result Saliency Maps
 链接：https://pan.baidu.com/s/1Fv34jaMj6Xq6lb_NoygoLA 
