@@ -4,7 +4,7 @@ Official implementation of ["Saliency Prototype for RGB-D and RGB-T Salient Obje
   ![Image text](https://github.com/ZZ2490/SPNet/blob/main/f2.png)
 Overall architecture of the Saliency Prototype Network
 ## Visual comparison results with other RGB-D models.
- ![Image text](https://github.com/ZZ2490/SPNet/blob/main/f2.png)
+ ![Image text](https://github.com/ZZ2490/SPNet/blob/main/f5.png)
 
 ## RGBD Result Saliency Maps
 链接：https://pan.baidu.com/s/1Fv34jaMj6Xq6lb_NoygoLA 
