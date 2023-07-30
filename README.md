@@ -26,3 +26,13 @@ Overall architecture of the Saliency Prototype Network
 ## Evaluation Code
 链接：https://pan.baidu.com/s/1qLRw0tlVoCp95zVu4sn2tw 
 提取码：2490
+
+```
+ @Article{SPNet,
+    author    = {Zihao Zhang, Jie Wang, Yahong Han},
+    title     = {Saliency Prototype for RGB-D and RGB-T Salient Object Detection},
+    journal   = {ACM International Conference on Multimedia},
+    year      = {2023},
+    doi       = {}
+    }
+ ```
