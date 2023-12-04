@@ -1,0 +1,55 @@
+Looking in links: https://download.openmmlab.com/mmcv/dist/cu113/torch1.12.0/index.html
+Collecting mmdet
+  Downloading mmdet-3.0.0-py3-none-any.whl (1.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 7.8 MB/s eta 0:00:00
+Requirement already satisfied: matplotlib in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from mmdet) (3.7.1)
+Requirement already satisfied: numpy in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from mmdet) (1.24.3)
+Collecting pycocotools (from mmdet)
+  Downloading pycocotools-2.0.6.tar.gz (24 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting scipy (from mmdet)
+  Downloading scipy-1.11.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (36.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 36.5/36.5 MB 9.6 MB/s eta 0:00:00
+Collecting shapely (from mmdet)
+  Downloading shapely-2.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 9.2 MB/s eta 0:00:00
+Requirement already satisfied: six in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from mmdet) (1.16.0)
+Collecting terminaltables (from mmdet)
+  Downloading terminaltables-3.1.10-py2.py3-none-any.whl (15 kB)
+Requirement already satisfied: mmcv<2.1.0,>=2.0.0rc4 in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from mmdet) (2.0.0)
+Requirement already satisfied: mmengine<1.0.0,>=0.7.1 in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from mmdet) (0.7.4)
+Requirement already satisfied: addict in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from mmcv<2.1.0,>=2.0.0rc4->mmdet) (2.4.0)
+Requirement already satisfied: packaging in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from mmcv<2.1.0,>=2.0.0rc4->mmdet) (23.1)
+Requirement already satisfied: Pillow in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from mmcv<2.1.0,>=2.0.0rc4->mmdet) (9.4.0)
+Requirement already satisfied: pyyaml in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from mmcv<2.1.0,>=2.0.0rc4->mmdet) (6.0)
+Requirement already satisfied: yapf in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from mmcv<2.1.0,>=2.0.0rc4->mmdet) (0.40.1)
+Requirement already satisfied: opencv-python>=3 in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from mmcv<2.1.0,>=2.0.0rc4->mmdet) (4.7.0.72)
+Requirement already satisfied: rich in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from mmengine<1.0.0,>=0.7.1->mmdet) (13.4.2)
+Requirement already satisfied: termcolor in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from mmengine<1.0.0,>=0.7.1->mmdet) (2.3.0)
+Requirement already satisfied: contourpy>=1.0.1 in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from matplotlib->mmdet) (1.1.0)
+Requirement already satisfied: cycler>=0.10 in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from matplotlib->mmdet) (0.11.0)
+Requirement already satisfied: fonttools>=4.22.0 in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from matplotlib->mmdet) (4.40.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from matplotlib->mmdet) (1.4.4)
+Requirement already satisfied: pyparsing>=2.3.1 in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from matplotlib->mmdet) (3.1.0)
+Requirement already satisfied: python-dateutil>=2.7 in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from matplotlib->mmdet) (2.8.2)
+Requirement already satisfied: importlib-resources>=3.2.0 in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from matplotlib->mmdet) (5.12.0)
+Requirement already satisfied: zipp>=3.1.0 in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from importlib-resources>=3.2.0->matplotlib->mmdet) (3.15.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from rich->mmengine<1.0.0,>=0.7.1->mmdet) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from rich->mmengine<1.0.0,>=0.7.1->mmdet) (2.15.1)
+Requirement already satisfied: importlib-metadata>=6.6.0 in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from yapf->mmcv<2.1.0,>=2.0.0rc4->mmdet) (6.7.0)
+Requirement already satisfied: platformdirs>=3.5.1 in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from yapf->mmcv<2.1.0,>=2.0.0rc4->mmdet) (3.8.0)
+Requirement already satisfied: tomli>=2.0.1 in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from yapf->mmcv<2.1.0,>=2.0.0rc4->mmdet) (2.0.1)
+Requirement already satisfied: mdurl~=0.1 in /home/zzh/anaconda3/envs/cora/lib/python3.9/site-packages (from markdown-it-py>=2.2.0->rich->mmengine<1.0.0,>=0.7.1->mmdet) (0.1.2)
+Building wheels for collected packages: pycocotools
+  Building wheel for pycocotools (pyproject.toml): started
+  Building wheel for pycocotools (pyproject.toml): finished with status 'done'
+  Created wheel for pycocotools: filename=pycocotools-2.0.6-cp39-cp39-linux_x86_64.whl size=104449 sha256=c2563e96e582430a55c7071ee4e19a4d000588d26519e3ba47c850f7e3dddb35
+  Stored in directory: /home/zzh/.cache/pip/wheels/2f/58/25/e78f1f766e904a9071266661d20d0bc6644df86bcd160aba11
+Successfully built pycocotools
+Installing collected packages: terminaltables, shapely, scipy, pycocotools, mmdet
+Successfully installed mmdet-3.0.0 pycocotools-2.0.6 scipy-1.11.0 shapely-2.0.1 terminaltables-3.1.10
